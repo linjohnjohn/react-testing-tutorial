@@ -1,9 +1,6 @@
-import React from 'react'
-
-export const Hello = () => {
-  return (
-    <div>
-      Hello World!
-    </div>
-  )
-}
+/* eslint-disable import/prefer-default-export */
+export const Hello = () => (
+  <div>
+    Hello World!
+  </div>
+);
